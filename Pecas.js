@@ -12,7 +12,7 @@ if (peso >= 100) {
     if (numeroPecas < 10) {
         console.log ("Você pode inserir mais peças em sua lista.")
 
-        let nomePecas = listaPecas [4]; /// Variável nome, puxando string listada em passo anterior para ser inserida no sistema pelo usuário.
+        let nomePecas = listaPecas [3]; /// Variável nome, puxando string listada em passo anterior para ser inserida no sistema pelo usuário.
         if (nomePecas.length > 3){
             console.log (`Nome de peça válido. ${nomePecas} cadastrada.`)
         }else{
