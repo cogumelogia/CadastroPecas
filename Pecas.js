@@ -14,7 +14,7 @@ if (peso >= 100) {
 
         let nomePecas = listaPecas [4]; /// Variável nome, puxando string listada em passo anterior para ser inserida no sistema pelo usuário.
         if (nomePecas.length > 3){
-            console.log ("Nome de peça válido. Peça cadastrada.")
+            console.log (`Nome de peça válido. ${nomePecas} cadastrada.`)
         }else{
             console.log ("Nome de peça inválido. A peça precisa ter nome com mais de 3 caracteres.")
         }    
